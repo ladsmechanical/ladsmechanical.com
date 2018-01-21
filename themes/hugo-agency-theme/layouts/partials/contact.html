@@ -8,8 +8,8 @@
         <h2 class="section-heading">{{ . | markdownify }}</h2>
         {{ end }}
 
-        {{ with .Site.Params.contact.subtitle }}
-        <h3 class="section-subheading text-muted">{{ . | markdownify }}</h3>
+        {{ range .Site.Params.contact.contacts }}
+        <p>{{ .text | markdownify }}</p>
         {{ end }}
 
       </div>

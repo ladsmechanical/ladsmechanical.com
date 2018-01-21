@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://ladsmechanical.com"
+baseurl = "https://ladsmechanical.com"
 languageCode = "en-us"
 title = "L.A.D.S. Mechanical"
 theme = "hugo-agency-theme"
@@ -43,6 +43,15 @@ googleAnalytics = ""
     team = "Team"
     contact = "Contact"
 
+  [[params.navigation.postpend]]
+    number = "613-551-1888"
+    name = "Steve"
+    weight = 10
+
+  [[params.navigation.postpend]]
+    number = "613-802-3577"
+    name = "Dennis"
+    weight = 10
 
   # Hero section
   [params.hero]
@@ -127,10 +136,18 @@ The experience and comprehensive use of resources by our project managers, Trade
 At L.A.D.S. we strive to maintain a personal approach relationship with the Owners, Consultants and contractors by assigning one of our experienced Managers as a direct liaison to promote effective co-ordination and communication."""
 
   # Contact section
+  [[params.contact.contacts]]
+    text = "[STEVE: 613-551-1888](tel:613-551-1888)"
+
+  [[params.contact.contacts]]
+    text = "[DENNIS: 613-802-3577](tel:613-802-3577)"
+
+  [[params.contact.contacts]]
+    text = "[contact@ladsmechanical.com](mailto:contact@ladsmechanical.com)"
+
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "Email us for a quote."
     buttonText = "Send message"
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -151,7 +168,7 @@ At L.A.D.S. we strive to maintain a personal approach relationship with the Owne
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "ladsmechanical@xplornet.com"
+    email = "contact@ladsmechanical.com"
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]

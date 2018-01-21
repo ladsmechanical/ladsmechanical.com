@@ -65,9 +65,9 @@
           </li>
         {{ end }}
 
-        {{ range .Site.Menus.postpend }}
+        {{ range .Site.Params.navigation.postpend }}
           <li>
-            <a href="{{ .URL }}">{{ .Name }}</a>
+            <a href="tel:{{ .number }}">{{ .name }}: {{ .number }}</a>
           </li>
         {{ end }}
       </ul>

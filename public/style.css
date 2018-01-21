@@ -1,10 +1,31 @@
 .navbar-default {
-    background-color: rgba(0, 0, 0, 0.13) !important;
+     background-color: rgba(0, 0, 0, 0.13) !important; 
 }
+
+@media (max-width: 768px) {
+    .navbar-default {
+        background-color: rgba(0, 0, 0, 0.8) !important;
+    }
+}
+
+
 
 .navbar-default .navbar-brand {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #E27807;
+}
+
+.navbar-default.navbar-shrink {
+   background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+#about-description {
+    margin-bottom: 150px !important;
+}
+
+#contact p a {
+    font-size: 18px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
 }
 
 header {
