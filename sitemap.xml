@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://ladsmechanical.com/categories/</loc>
+    <loc>https://ladsmechanical.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ladsmechanical.com/</loc>
+    <loc>https://ladsmechanical.com/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ladsmechanical.com/tags/</loc>
+    <loc>https://ladsmechanical.com/tags/</loc>
     <priority>0</priority>
   </url>
   
